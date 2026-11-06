@@ -3,40 +3,36 @@ const spots = {
         {
             name: "浅草寺",
             description: "東京を代表する歴史あるお寺。仲見世通りで食べ歩きも楽しめます。",
-            image: "./media2/浅草.jpeg"
+            image: "./media2/浅草.jpg"
         },
         {
             name: "東京スカイツリー",
             description: "東京の街並みを一望できる人気の展望スポットです。",
-            image: "./media2/スカイツリー_.jpeg"
+            image: "./media2/スカイツリー.jpg"
         },
         {
             name: "渋谷",
             description: "多くの人が行き交う東京を代表する観光スポットです。",
-            image: "./media2/渋谷.jpeg"
+            image: "./media2/渋谷.jpg"
         },
-        {
-            name: "上野公園",
-            description: "自然や美術館、博物館を楽しめる人気の公園です。",
-            image: "./media2/上野.jpeg"
-        }
+        
     ],
 
     kyoto: [
         {
             name: "清水寺",
             description: "京都を代表する有名なお寺です。",
-            image: "./media2/清水寺.jpeg"
+            image: "./media2/清水寺.jpg"
         },
         {
             name: "伏見稲荷大社",
             description: "朱色の千本鳥居が有名な神社です。",
-            image: "./media2/伏見稲荷.jpeg"
+            image: "./media2/伏見稲荷.jpg"
         },
         {
             name: "嵐山",
             description: "竹林や川など、自然豊かな景色を楽しめます。",
-            image: "./media2/嵐山.jpeg"
+            image: "./media2/嵐山.jpg"
         }
     ],
 
@@ -44,53 +40,32 @@ const spots = {
         {
             name: "道頓堀",
             description: "たこ焼きやお好み焼きなど大阪グルメを楽しめます。",
-            image: "./media2/道頓堀.jpeg"
+            image: "./media2/道頓堀.jpg"
         },
         {
             name: "大阪城",
             description: "歴史を感じられる大阪の代表的な観光地です。",
-            image: "./media2/大阪城.jpeg"
+            image: "./media2/大阪城.jpg"
         }
     ],
 
-    fukuoka: [
-        {
-            name: "博多屋台",
-            description: "ラーメンなど福岡のグルメを楽しめる人気スポットです。",
-            image: "./media2/博多屋台.jpeg"
-        },
-        {
-            name: "太宰府天満宮",
-            description: "学問の神様として知られる歴史ある神社です。",
-            image: "./media2/太宰府天満宮.jpeg"
-        },
-        {
-            name: "糸島",
-            description: "海や自然の美しい景色が楽しめる人気エリアです。",
-            image: "./media2/糸島.jpeg"
-        },
-        {
-            name: "福岡タワー",
-            description: "福岡の街と海を一望できる展望スポットです。",
-            image: "./media2/福岡タワー_.jpeg"
-        }
-    ],
+    
 
     okinawa: [
         {
             name: "美ら海水族館",
             description: "ジンベエザメなど多くの海の生き物に出会えます。",
-            image: "./media2/美ら海.jpeg"
+            image: "./media2/美ら海.jpg"
         },
         {
             name: "古宇利島",
             description: "透明度の高い海と美しい橋が魅力の観光地です。",
-            image: "./media2/古宇利島.jpeg"
+            image: "./media2/古宇利島.jpg"
         },
         {
             name: "首里城",
             description: "琉球王国の歴史や文化を感じられる場所です。",
-            image: "./media2/首里城.jpeg"
+            image: "./media2/首里城.jpg"
         }
     ]
 };
