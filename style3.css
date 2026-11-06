@@ -1,0 +1,146 @@
+/* 全体設定 */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #f0f7ff;
+    color: #333;
+}
+
+/* ヘッダー */
+header {
+    text-align: center;
+    background: linear-gradient(135deg, #65c7f7, #0052d4);
+    color: white;
+    padding: 35px 15px;
+}
+
+header h1 {
+    font-size: 40px;
+    margin: 0 0 10px;
+}
+
+/* メイン部分 */
+main {
+    width: 90%;
+    max-width: 800px;
+    margin: 30px auto;
+}
+
+/* 入力フォーム・結果エリア */
+.form-area,
+#result-area {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* ラベル */
+label {
+    display: block;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/* 選択ボックス */
+select {
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+/* ボタン */
+button {
+    display: block;
+    width: 100%;
+    margin-top: 25px;
+    padding: 15px;
+    background-color: #1687d9;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0866ad;
+}
+
+/* 旅行プランの結果 */
+#result {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* 観光地カード */
+.spot-card {
+    width: 200%;
+    max-width: 200px;
+    margin: 15px auto;
+    background-color: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+/* 観光地の画像 */
+
+.spot-card img {
+    width: 100%;
+    height: 110px;
+    object-fit: scale-down;
+    display: block;
+    margin: 0 auto;
+    background-color: #f0f0f0;
+}
+
+
+/* 観光地の説明 */
+.spot-info {
+    padding: 15px;
+}
+
+.spot-info h3 {
+    color: #0866ad;
+    font-size: 20px;
+    margin-top: 0;
+}
+
+.spot-info p {
+    line-height: 1.6;
+    font-size: 15px;
+}
+
+/* フッター */
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #666;
+}
+
+/* スマートフォン対応 */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 30px;
+    }
+
+    main {
+        width: 94%;
+    }
+
+    .spot-card img {
+        height: 160px;
+    }
+}
+
