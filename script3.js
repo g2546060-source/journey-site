@@ -46,6 +46,11 @@ const spots = {
             name: "大阪城",
             description: "歴史を感じられる大阪の代表的な観光地です。",
             image: "./media2/大阪城.jpg"
+        },
+        {
+            name: "ユニバーサル・スタジオ・ジャパン",
+            description: "映画の世界を体験できるテーマパークです。",
+            image: "./media2/usj.jpg"
         }
     ],
 
